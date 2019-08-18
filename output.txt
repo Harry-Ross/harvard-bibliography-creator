@@ -1,2 +1,2 @@
-Roger Taracha 2018 Introduction to Web Scraping using Selenium - The Andela Way - Medium https://medium.com/the-andela-way/introduction-to-web-scraping-using-selenium-7ec377a8cf72
-Vinicius Dacal 2019 Structuring projects and naming components in React https://medium.com/hackernoon/structuring-projects-and-naming-components-in-react-1261b6e18d76
+Roger Taracha 2018, Introduction to Web Scraping using Selenium - The Andela Way - Medium, https://medium.com/the-andela-way/introduction-to-web-scraping-using-selenium-7ec377a8cf72 Accessed on 10/8/18
+Vinicius Dacal 2019, Structuring projects and naming components in React, https://medium.com/hackernoon/structuring-projects-and-naming-components-in-react-1261b6e18d76 Accessed on 10/8/18

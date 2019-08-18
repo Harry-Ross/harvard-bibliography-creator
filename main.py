@@ -8,7 +8,7 @@ from datetime import datetime
 
 browser = webdriver.Chrome()
 
-def generateBib(inputStr):
+def generateBib(inputStr, dateInput):
     browser.get(inputStr)
 
     author = getAuthor(browser)
@@ -16,7 +16,7 @@ def generateBib(inputStr):
     url = browser.current_url
     year = getYear(browser)
 
-    return author + " " + year + " " + title + " " + url 
+    return author + " " + year + ", " + title + ", " + url + " Accessed on " + dateInput
 
 def getAuthor(browser):
     element = browser.find_element_by_xpath("//meta[@name='author']")
@@ -32,7 +32,8 @@ def main():
     bib = []
     inputFile = open("input.txt", "r")
     for line in inputFile.readlines():
-        bib.append(generateBib(line))
+        dateInput = input('enter date accessed')
+        bib.append(generateBib(line, dateInput))
         bib.append('\n')
 
     browser.close()
